@@ -1,0 +1,2 @@
+document.querySelectorAll('#crudForm').forEach(form=>{form.addEventListener('submit',function(e){let inputs=form.querySelectorAll('input[required],textarea[required]');for(let i of inputs){if(i.value.trim()===''){alert('Form wajib diisi!');e.preventDefault();i.focus();return;}}});});
+document.querySelectorAll('.btn-hapus').forEach(btn=>{btn.addEventListener('click',function(e){if(!confirm('Yakin hapus?')){e.preventDefault();}});});
