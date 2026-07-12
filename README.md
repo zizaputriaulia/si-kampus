@@ -6,7 +6,7 @@ Dibuat untuk UAS Pemrograman Website
 ## Fitur 
 - Login Masiswa & Admin
 - CRUD Data Mahasiswa
-- Koneksi ke Database MySQL InfinityFree
+- Koneksi ke Database MySQL
 
 ### 1. Clone Repository
 '''bash
